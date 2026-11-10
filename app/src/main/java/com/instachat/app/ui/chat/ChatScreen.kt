@@ -709,7 +709,7 @@ private fun ChatTopBar(
                     painter = painterResource(R.drawable.ic_back),
                     contentDescription = "Back",
                     tint = Color.White,
-                    modifier = Modifier.size(26.dp)
+                    modifier = Modifier.size(28.dp)
                 )
             }
             Spacer(Modifier.width(4.dp))
@@ -724,7 +724,7 @@ private fun ChatTopBar(
                 Avatar(
                     name = contact?.name.orEmpty(),
                     path = contact?.avatarPath,
-                    size = 36.dp
+                    size = 32.dp
                 )
                 Spacer(Modifier.width(11.dp))
                 Column(modifier = Modifier.weight(1f)) {
@@ -777,7 +777,7 @@ private fun ChatTopBar(
                     painter = painterResource(R.drawable.ic_phone),
                     contentDescription = "Call",
                     tint = Color.White,
-                    modifier = Modifier.size(25.dp)
+                    modifier = Modifier.size(28.dp)
                 )
             }
             Spacer(Modifier.width(4.dp))
@@ -786,7 +786,7 @@ private fun ChatTopBar(
                     painter = painterResource(R.drawable.ic_video),
                     contentDescription = "Video call",
                     tint = Color.White,
-                    modifier = Modifier.size(27.dp)
+                    modifier = Modifier.size(30.dp)
                 )
             }
         }
