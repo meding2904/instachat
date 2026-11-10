@@ -1,16 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp" android:height="24dp"
-    android:viewportWidth="24" android:viewportHeight="24">
-  <path android:pathData="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
-  <path android:pathData="M10 8.5v7l6-3.5z"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group android:translateX="-576" android:translateY="-1015">
+        <path
+            android:pathData="M590.8 1029.13C591.067 1029.3 591.067 1029.7 590.8 1029.87L586.6 1032.44C586.333 1032.61 586 1032.4 586 1032.07L586 1026.93C586 1026.6 586.333 1026.39 586.6 1026.56L590.8 1029.13Z"
+            android:fillColor="#FF000000" />
+        <path
+            android:pathData="M584 1017C580.686 1017 578 1019.69 578 1023V1031C578 1034.31 580.686 1037 584 1037H592C595.314 1037 598 1034.31 598 1031V1023C598 1019.69 595.314 1017 592 1017H584ZM592 1019H590.766L592.566 1022H595.874C595.43 1020.27 593.864 1019 592 1019ZM596 1024H580V1031C580 1033.21 581.791 1035 584 1035H592C594.209 1035 596 1033.21 596 1031V1024ZM580.126 1022H584.234L582.588 1019.26C581.38 1019.71 580.452 1020.73 580.126 1022ZM586.566 1022H590.234L588.434 1019H584.766L586.566 1022Z"
+            android:fillColor="#FF000000"
+            android:fillType="evenOdd" />
+    </group>
 </vector>

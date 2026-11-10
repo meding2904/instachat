@@ -1,16 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp" android:height="24dp"
-    android:viewportWidth="24" android:viewportHeight="24">
-  <path android:pathData="M21 3L3 11l7 3 3 7z"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
-  <path android:pathData="M10 14L21 3"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group android:translateX="-576" android:translateY="-1087">
+        <path
+            android:pathData="M578.324 1092.09C577.64 1091.34 578.101 1090 579.245 1090L597 1090C597.355 1090 597.683 1090.19 597.863 1090.49C598.042 1090.8 598.046 1091.18 597.873 1091.49L588.995 1107.36C588.446 1108.34 587.026 1108.14 586.719 1107.1L584.205 1098.6L578.324 1092.09ZM586.278 1098.56L588.128 1104.82L594.304 1093.77L586.278 1098.56ZM593.37 1092L580.935 1092L585.291 1096.82L593.37 1092Z"
+            android:fillColor="#FF000000"
+            android:fillType="evenOdd" />
+    </group>
 </vector>

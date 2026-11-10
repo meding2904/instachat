@@ -307,9 +307,9 @@ private fun BubbleBody(
             }
             Box(
                 modifier = Modifier
-                    .align(if (mine) Alignment.BottomEnd else Alignment.BottomStart)
+                    .align(Alignment.BottomCenter)
                     .offset(
-                        x = if (mine) (-4).dp else 4.dp,
+                        x = if (mine) (-20).dp else 20.dp,
                         y = 14.dp
                     )
                     .graphicsLayer {

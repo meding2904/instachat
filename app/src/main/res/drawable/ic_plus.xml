@@ -1,16 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp" android:height="24dp"
-    android:viewportWidth="24" android:viewportHeight="24">
-  <path android:pathData="M12 5v14"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
-  <path android:pathData="M5 12h14"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group android:translateX="-288" android:translateY="-1519">
+        <path
+            android:pathData="M300 1522C299.448 1522 299 1522.45 299 1523V1530H292C291.448 1530 291 1530.45 291 1531C291 1531.55 291.448 1532 292 1532H299V1539C299 1539.55 299.448 1540 300 1540C300.552 1540 301 1539.55 301 1539V1532H308C308.552 1532 309 1531.55 309 1531C309 1530.45 308.552 1530 308 1530H301V1523C301 1522.45 300.552 1522 300 1522Z"
+            android:fillColor="#FF000000" />
+    </group>
 </vector>

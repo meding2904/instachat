@@ -6,8 +6,9 @@ it in a polished, dark messaging UI. Everything is local to the device; no
 network permission, accounts, or real messages are involved.
 
 > **Simulated chat.** The app is explicitly labelled in Settings and in the
-> About section. It is not affiliated with any social network. Every icon,
-> avatar, image, and the logo is original to this project.
+> About section. It is not affiliated with any social network. Main UI icons
+> are adapted from a public Figma community set; avatars, images, and the logo
+> are original to this project.
 
 ## Stack
 
@@ -196,11 +197,15 @@ and inbox ordering/unread behavior.
 - Message arrival slides up 12dp + fades in 200ms; typing dots scale over 400ms
   with staggered starts; reactions pop in 180ms; send/mic cross-fades in 120ms.
 - Message bubbles expose TalkBack descriptions such as “Friend said … at 4:52 PM”.
-- The supplied custom vector icon family is used throughout the DM surfaces:
-  back, call/video, camera, mic, gallery, emoji, plus, send, search, home,
-  reels, compose, chevron, check, info, and reply. XML drawables live in
-  `res/drawable`, with SVG sources in `design/icons/svg`; the Material Icons
-  dependency is not included.
-- No Instagram/Meta/other-network logos, names, or extracted assets are used.
-  The layout and dark palette are generic modern-DM patterns, and all artwork
-  (app icon, icons, seed avatars, seed photo) is original.
+- The DM surfaces use icons adapted from the public
+  [“Instagram - UI Icons (Community)”](https://www.figma.com/design/R8Byl2QgjPVH0uZ6bgXxUC/Instagram---UI-Icons--Community-?node-id=5-426)
+  Figma set: back, camera, gallery, emoji, plus, send, search,
+  home, reels, compose, chevron, reply, moon, lock, play, copy, sparkles, and
+  audio. Icons that the set does not cover (call, video, mic, pause, timestamp,
+  edit, delete, settings, and info) keep the original hand-drawn vector family.
+  XML drawables live in `res/drawable`, with SVG sources in
+  `design/icons/svg`; the Material Icons dependency is not included.
+- No Instagram/Meta logos, wordmarks, or network branding are used. The app is
+  not affiliated with Instagram or Meta. The icon set is a community UI kit;
+  seed avatars, seed photos, and the launcher/splash logo are original to this
+  project.

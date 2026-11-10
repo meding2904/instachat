@@ -1,16 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp" android:height="24dp"
-    android:viewportWidth="24" android:viewportHeight="24">
-  <path android:pathData="M4 11a7 7 0 1 0 14 0a7 7 0 1 0-14 0"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
-  <path android:pathData="M16 16l5 5"
-      android:fillColor="#00000000"
-      android:strokeColor="#FFFFFFFF"
-      android:strokeWidth="2.0"
-      android:strokeLineCap="round"
-      android:strokeLineJoin="round"/>
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group android:translateX="-288" android:translateY="-1015">
+        <path
+            android:pathData="M303.762 1032.18C302.315 1033.32 300.487 1034 298.5 1034C293.806 1034 290 1030.19 290 1025.5C290 1020.81 293.806 1017 298.5 1017C303.194 1017 307 1020.81 307 1025.5C307 1027.49 306.318 1029.31 305.176 1030.76L309.657 1035.24C310.047 1035.63 310.047 1036.27 309.657 1036.66C309.266 1037.05 308.633 1037.05 308.243 1036.66L303.762 1032.18ZM305 1025.5C305 1029.09 302.09 1032 298.5 1032C294.91 1032 292 1029.09 292 1025.5C292 1021.91 294.91 1019 298.5 1019C302.09 1019 305 1021.91 305 1025.5Z"
+            android:fillColor="#FF000000"
+            android:fillType="evenOdd" />
+    </group>
 </vector>
