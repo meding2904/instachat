@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InstaChat</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+</resources>

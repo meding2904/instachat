@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launch_background">#000000</color>
+    <color name="brand_purple">#6C5CE7</color>
+    <color name="brand_blue">#4D7CFE</color>
+    <color name="brand_coral">#FF5E7E</color>
+    <color name="white">#FFFFFF</color>
+</resources>
