@@ -892,7 +892,7 @@ private fun ChatComposer(
                     painter = painterResource(R.drawable.ic_camera),
                     contentDescription = "Take a photo",
                     tint = Color.White,
-                    modifier = Modifier.size(22.dp)
+                    modifier = Modifier.size(24.dp)
                 )
             }
             Spacer(Modifier.width(12.dp))
@@ -988,7 +988,7 @@ private fun ComposerIcon(
             painter = painterResource(icon),
             contentDescription = description,
             tint = tint,
-            modifier = Modifier.size(25.dp)
+            modifier = Modifier.size(27.dp)
         )
     }
 }
@@ -1016,7 +1016,7 @@ private fun ChatSendButton(palette: ChatPalette, onClick: () -> Unit) {
             painter = painterResource(R.drawable.ic_send),
             contentDescription = "Send",
             tint = Color.White,
-            modifier = Modifier.size(19.dp)
+            modifier = Modifier.size(21.dp)
         )
     }
 }
@@ -1066,7 +1066,7 @@ private fun MicButton(
             painter = painterResource(R.drawable.ic_mic),
             contentDescription = "Hold to record a voice message. Slide left to cancel or up to lock.",
             tint = Color.White,
-            modifier = Modifier.size(25.dp)
+            modifier = Modifier.size(27.dp)
         )
     }
 }
